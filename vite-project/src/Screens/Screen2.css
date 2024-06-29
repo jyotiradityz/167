@@ -1,0 +1,72 @@
+.screen2-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .screen2-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .screen2-container p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .options-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .option-card {
+    width: 140px;
+    height: 140px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+  }
+  
+  .option-card.selected {
+    background-color: #ff7f50;
+    border-color: #ff7f50;
+    color: white;
+  }
+  
+  .option-card h2 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+  }
+  
+  .option-card p {
+    font-size: 12px;
+    color: inherit;
+  }
+  
+  .option-icon {
+    font-size: 24px;
+  }
+  
+  .next-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .next-button:hover {
+    background-color: #e56a45;
+  }
+  
